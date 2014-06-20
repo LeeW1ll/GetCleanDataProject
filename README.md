@@ -2,19 +2,23 @@
 ## Header
 ==================================================================
 Repo: 	GetCleanDataProject
+
 Creator:Lee Williams (LeeW1ll)
 
 Title: Project work for the getting and cleanding data course
+
 Version: 1.0
+
 Date: 20/06/2014
 
 ------------------------------------------------------------------
 ## Purpose
 ------------------------------------------------------------------
 The project text states the follwoing as the purpose.
+
 "The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project. You will be required to submit: 1) a tidy data set as described below, 2) a link to a Github repository with your script for performing the analysis, and 3) a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected." ... 
-"
- You should create one R script called run_analysis.R that does the following. 
+
+"You should create one R script called run_analysis.R that does the following. 
 
     Merges the training and the test sets to create one data set.
     Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -26,6 +30,7 @@ The project text states the follwoing as the purpose.
 ## Repository Files
 ==================================================================
 1. README.md		Details of repository, files and data used
+
 2. run_analysis.R	R Code for creating, tidying and aggregating data
 
 ==================================================================
@@ -37,26 +42,34 @@ The project text states the follwoing as the purpose.
 Data is split into training and test data set.  They have the same columns, though the data itself varies.
 There are no clear headings for the data columns.  For the main data set, column names are held in the features data.
 Though the names in here are hard to read and not structured well.
+
 The subject and activity data is held in separate data and needs binding to the main data to allow identification of the results.
 
 ------------------------------------------------------------------
 ### Data Files Used
 ------------------------------------------------------------------
 train/x_train.txt:- Training data results
+
 train/y_train.txt:- Training data activity index values (numeric 1 to 6)
+
 train/subject_train.txt:- Training data subject values (numeric 1 to 30)
 
+
 test/x_test.txt:- Test data results
+
 test/y_test.txt:- Test data activity index values (numeric 1 to 6)
+
 test/subject_test.txt:- Test data subject values (numeric 1 to 30)
 
 features.txt:- List of all 561 column headings used for the x_test_x.txt and x_train_x.txt data
+
 activity_labels.txt:- Descriptive names for the activities with a numeric link to the y_test.txt and y_train.txt data
 
 ------------------------------------------------------------------
 ### Data and Documentation Links
 ------------------------------------------------------------------
-Data Description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+Data Description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+ 
 Data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 	
 
 
