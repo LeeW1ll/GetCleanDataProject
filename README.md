@@ -4,9 +4,10 @@
 Repo: 	GetCleanDataProject
 Creator:Lee Williams (LeeW1ll)
 
-Title:	Project work for the getting and cleanding data course
-Version:1.0
-Date:	20/06/2014
+Title: Project work for the getting and cleanding data course
+Version: 1.0
+Date: 20/06/2014
+
 ------------------------------------------------------------------
 ## Purpose
 ------------------------------------------------------------------
@@ -41,23 +42,23 @@ The subject and activity data is held in separate data and needs binding to the 
 ------------------------------------------------------------------
 ### Data Files Used
 ------------------------------------------------------------------
-train/x_train.txt: 	Training data results
-train/y_train.txt: 	Training data activity index values (numeric 1 to 6)
-train/subject_train.txt:Training data subject values (numeric 1 to 30)
+train/x_train.txt:- Training data results
+train/y_train.txt:- Training data activity index values (numeric 1 to 6)
+train/subject_train.txt:- Training data subject values (numeric 1 to 30)
 
-test/x_test.txt: 	Test data results
-test/y_test.txt: 	Test data activity index values (numeric 1 to 6)
-test/subject_test.txt:	Test data subject values (numeric 1 to 30)
+test/x_test.txt:- Test data results
+test/y_test.txt:- Test data activity index values (numeric 1 to 6)
+test/subject_test.txt:- Test data subject values (numeric 1 to 30)
 
-features.txt: 		List of all 561 column headings used for the x_test_x.txt and x_train_x.txt data
-activity_labels.txt: 	Descriptive names for the activities with a numeric link to the y_test.txt and y_train.txt data
+features.txt:- List of all 561 column headings used for the x_test_x.txt and x_train_x.txt data
+activity_labels.txt:- Descriptive names for the activities with a numeric link to the y_test.txt and y_train.txt data
 
 ------------------------------------------------------------------
 ### Data and Documentation Links
 ------------------------------------------------------------------
 Data Description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 Data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 	
-==================================================================
+
 
 ==================================================================
 ## File Details
